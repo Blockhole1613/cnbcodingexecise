@@ -11,6 +11,6 @@ This document explains the Structure of the Automated tests
   Advantage of Runsettings file is when we create Pipeline in Azure for this repos..we can overwrite config path in runsettings on fly and can be run on any environment with the same set of tests
   
   To Run the Tests - 
-  I'm uploading Zip folder which has support files to run the tests. Unzip to a path and update the path in the Base Page
+  I'm uploading Zip folder(Reports Folder) which has support files to run the tests. Unzip to a path and update the path in the Base Page
   Point the runsettings file to the path as well to pick the config 
   
