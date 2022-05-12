@@ -1,0 +1,11 @@
+This document explains the Structure of the Automated tests
+ This Automated Tests are Built using Page Object Model Design with MSTest and Uses CommonComponents.dll(Main part of Framework) which can be used to Build Automated Tests across any Web Applications in the Organization
+  I have used cnb.com website and Created 3 scenarios for Automation
+   Mortgage Enquiry,HomePage Links 
+  Solution used Project Dependencies - CommonComponents.dll - This uses Abstraction Principle
+  BasePage is extended for Each Page Class - This uses Inheritance Principle
+  All Page classes have Elements(Data) belong to that Page and Methods(Actions) performed using that Elemets on that Page - This uses Encapsulation Principle
+  Test Method 2 and 3 in tests Uses Same method with different Paramters - This uses Polymorphism Principle
+  
+  Throughout the tests - -Replace the X:\ with the local drive where all the files which are required (will be ziped and uploaded to git hub) needs to be placed and also when the test runs Reports are generated to that path.
+  
